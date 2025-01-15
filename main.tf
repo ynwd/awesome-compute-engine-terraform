@@ -27,6 +27,8 @@ resource "google_compute_instance" "default" {
   machine_type = "e2-micro"  # Free Tier eligible machine type
   zone         = "us-central1-a"
 
+  tags = ["http-server", "https-server"]  
+
   boot_disk {
     initialize_params {
       image = "ubuntu-minimal-2004-lts"  # Latest Ubuntu LTS image
