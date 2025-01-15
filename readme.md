@@ -13,7 +13,7 @@ terraform init
 terraform apply
 ```
 
-## Highlited Block
+## The Highlighted Block
 
 ```bash
 # Configure the Google Cloud provider
